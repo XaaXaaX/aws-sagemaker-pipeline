@@ -1,0 +1,8 @@
+{
+    "loss_function":[ "YetiRank" ],
+    "early_stopping_rounds":[ 3000 ],
+    "depth":[ 6 ],
+    "l2_leaf_reg":[ 8 ],
+    "learning_rate":[ 0.06 ],
+    "iterations":[ 15000 ]
+}

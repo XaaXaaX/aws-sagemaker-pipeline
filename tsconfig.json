@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "declaration": true,
+    "strict": true,
+    "baseUrl": "./",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": false,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "paths": {
+        "@config": ["shared/cdk/configs"],
+        "@helpers": ["shared/cdk/core/helpers"],
+        "@type": ["shared/cdk/core/types"],
+    },
+  },
+  "exclude": [
+    "node_modules",
+    "cdk.out"
+  ],
+  
+}
