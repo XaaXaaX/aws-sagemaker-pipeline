@@ -55,3 +55,8 @@ docker run --rm  -it -v ../../../data:/opt/ml/processing/input/data -v ../../../
 | ItemId  | Intention_rate | Time_Period | 
 | ------- | -------------- | ----------- |
 | 1111111 | 1 * X1  |
+
+
+
+Source Dataset 
+https://www.kaggle.com/code/shwetakolekar/retailrocket-recommender-system/input
