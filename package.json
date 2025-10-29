@@ -16,9 +16,9 @@
     "cdk:data:dev": "npm run cdk:data:run -- -c env=dev  --require-approval never"
   },
   "devDependencies": {
-    "@types/node": "^22.9.0",
+    "@types/node": "^22.18.13",
     "aws-cdk": "^2.1031.0",
-    "aws-cdk-lib": "^2.221.0",
+    "aws-cdk-lib": "^2.221.1",
     "constructs": "^10.4.2",
     "tsconfig-paths": "^4.2.0",
     "tsx": "^4.20.4",
