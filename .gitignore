@@ -1,0 +1,20 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Python cache
+__pycache__
+
+# data files
+data/*
+!data/input/
+
+# Local assets
+/**/**/catboost_info
+
+.venv

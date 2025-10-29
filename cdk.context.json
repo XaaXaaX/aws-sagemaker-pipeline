@@ -1,0 +1,66 @@
+{
+  "vpc-provider:account=904233108557:filter.isDefault=true:region=eu-west-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-013222304bcac0bb2",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "ownerAccountId": "904233108557",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-09f530b5a7edf74c5",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "eu-west-1a",
+            "routeTableId": "rtb-02d2184651339f3ed"
+          },
+          {
+            "subnetId": "subnet-0e12fba0b1023aa43",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "eu-west-1b",
+            "routeTableId": "rtb-02d2184651339f3ed"
+          },
+          {
+            "subnetId": "subnet-03537b80260bfffcc",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "eu-west-1c",
+            "routeTableId": "rtb-02d2184651339f3ed"
+          }
+        ]
+      }
+    ]
+  },
+  "vpc-provider:account=147997120184:filter.isDefault=true:region=eu-west-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0a785f0c3112dcb2e",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "ownerAccountId": "147997120184",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-05cafadf2dd0bc5e4",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "eu-west-1a",
+            "routeTableId": "rtb-02d77b146369dd563"
+          },
+          {
+            "subnetId": "subnet-0513d9e218f2d71e3",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "eu-west-1b",
+            "routeTableId": "rtb-02d77b146369dd563"
+          },
+          {
+            "subnetId": "subnet-04db06788e2125828",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "eu-west-1c",
+            "routeTableId": "rtb-02d77b146369dd563"
+          }
+        ]
+      }
+    ]
+  }
+}
